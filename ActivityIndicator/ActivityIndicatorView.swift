@@ -13,29 +13,266 @@ public enum ActivityIndicatorType: Int {
     /**
      Blank.
 
-     - returns: Instance of NVActivityIndicatorAnimationBlank.
+     - returns: Instance of ActivityIndicatorAnimationBlank.
      */
     case blank
+    /**
+     BallPulse.
 
+     - returns: Instance of ActivityIndicatorAnimationBallPulse.
+     */
+    case ballPulse
+    /**
+     BallGridPulse.
+
+     - returns: Instance of ActivityIndicatorAnimationBallGridPulse.
+     */
+    case ballGridPulse
+    /**
+     BallClipRotate.
+
+     - returns: Instance of ActivityIndicatorAnimationBallClipRotate.
+     */
+    case ballClipRotate
     /**
      SquareSpin.
 
-     - returns: Instance of NVActivityIndicatorAnimationSquareSpin.
+     - returns: Instance of ActivityIndicatorAnimationSquareSpin.
      */
     case squareSpin
+    /**
+     BallClipRotatePulse.
 
-    static let allTypes = (blank.rawValue ... squareSpin.rawValue).map{ ActivityIndicatorType(rawValue: $0)! }
+     - returns: Instance of ActivityIndicatorAnimationBallClipRotatePulse.
+     */
+    case ballClipRotatePulse
+    /**
+     BallClipRotateMultiple.
+
+     - returns: Instance of ActivityIndicatorAnimationBallClipRotateMultiple.
+     */
+    case ballClipRotateMultiple
+    /**
+     BallPulseRise.
+
+     - returns: Instance of ActivityIndicatorAnimationBallPulseRise.
+     */
+    case ballPulseRise
+    /**
+     BallRotate.
+
+     - returns: Instance of ActivityIndicatorAnimationBallRotate.
+     */
+    case ballRotate
+    /**
+     CubeTransition.
+
+     - returns: Instance of ActivityIndicatorAnimationCubeTransition.
+     */
+    case cubeTransition
+    /**
+     BallZigZag.
+
+     - returns: Instance of ActivityIndicatorAnimationBallZigZag.
+     */
+    case ballZigZag
+    /**
+     BallZigZagDeflect
+
+     - returns: Instance of ActivityIndicatorAnimationBallZigZagDeflect
+     */
+    case ballZigZagDeflect
+    /**
+     BallTrianglePath.
+
+     - returns: Instance of ActivityIndicatorAnimationBallTrianglePath.
+     */
+    case ballTrianglePath
+    /**
+     BallScale.
+
+     - returns: Instance of ActivityIndicatorAnimationBallScale.
+     */
+    case ballScale
+    /**
+     LineScale.
+
+     - returns: Instance of ActivityIndicatorAnimationLineScale.
+     */
+    case lineScale
+    /**
+     LineScaleParty.
+
+     - returns: Instance of ActivityIndicatorAnimationLineScaleParty.
+     */
+    case lineScaleParty
+    /**
+     BallScaleMultiple.
+
+     - returns: Instance of ActivityIndicatorAnimationBallScaleMultiple.
+     */
+    case ballScaleMultiple
+    /**
+     BallPulseSync.
+
+     - returns: Instance of ActivityIndicatorAnimationBallPulseSync.
+     */
+    case ballPulseSync
+    /**
+     BallBeat.
+
+     - returns: Instance of ActivityIndicatorAnimationBallBeat.
+     */
+    case ballBeat
+    /**
+     LineScalePulseOut.
+
+     - returns: Instance of ActivityIndicatorAnimationLineScalePulseOut.
+     */
+    case lineScalePulseOut
+    /**
+     LineScalePulseOutRapid.
+
+     - returns: Instance of ActivityIndicatorAnimationLineScalePulseOutRapid.
+     */
+    case lineScalePulseOutRapid
+    /**
+     BallScaleRipple.
+
+     - returns: Instance of ActivityIndicatorAnimationBallScaleRipple.
+     */
+    case ballScaleRipple
+    /**
+     BallScaleRippleMultiple.
+
+     - returns: Instance of ActivityIndicatorAnimationBallScaleRippleMultiple.
+     */
+    case ballScaleRippleMultiple
+    /**
+     BallSpinFadeLoader.
+
+     - returns: Instance of ActivityIndicatorAnimationBallSpinFadeLoader.
+     */
+    case ballSpinFadeLoader
+    /**
+     LineSpinFadeLoader.
+
+     - returns: Instance of ActivityIndicatorAnimationLineSpinFadeLoader.
+     */
+    case lineSpinFadeLoader
+    /**
+     TriangleSkewSpin.
+
+     - returns: Instance of ActivityIndicatorAnimationTriangleSkewSpin.
+     */
+    case triangleSkewSpin
+    /**
+     Pacman.
+
+     - returns: Instance of ActivityIndicatorAnimationPacman.
+     */
+    case pacman
+    /**
+     BallGridBeat.
+
+     - returns: Instance of ActivityIndicatorAnimationBallGridBeat.
+     */
+    case ballGridBeat
+    /**
+     SemiCircleSpin.
+
+     - returns: Instance of ActivityIndicatorAnimationSemiCircleSpin.
+     */
+    case semiCircleSpin
+    /**
+     BallRotateChase.
+
+     - returns: Instance of ActivityIndicatorAnimationBallRotateChase.
+     */
+    case ballRotateChase
+    /**
+     Orbit.
+
+     - returns: Instance of ActivityIndicatorAnimationOrbit.
+     */
+    case orbit
+    /**
+     AudioEqualizer.
+
+     - returns: Instance of ActivityIndicatorAnimationAudioEqualizer.
+     */
+    case audioEqualizer
+
+    static let allTypes = (blank.rawValue ... audioEqualizer.rawValue).map{ ActivityIndicatorType(rawValue: $0)! }
 
     func animation() -> ActivityIndicatorAnimationDelegate {
         switch self {
         case .blank:
             return ActivityIndicatorAnimationBlank()
-
+        case .ballPulse:
+            return ActivityIndicatorAnimationBallPulse()
+        case .ballGridPulse:
+            return ActivityIndicatorAnimationBallGridPulse()
+        case .ballClipRotate:
+            return ActivityIndicatorAnimationBallClipRotate()
         case .squareSpin:
             return ActivityIndicatorAnimationSquareSpin()
+        case .ballClipRotatePulse:
+            return ActivityIndicatorAnimationBallClipRotatePulse()
+        case .ballClipRotateMultiple:
+            return ActivityIndicatorAnimationBallClipRotateMultiple()
+        case .ballPulseRise:
+            return ActivityIndicatorAnimationBallPulseRise()
+        case .ballRotate:
+            return ActivityIndicatorAnimationBallRotate()
+        case .cubeTransition:
+            return ActivityIndicatorAnimationCubeTransition()
+        case .ballZigZag:
+            return ActivityIndicatorAnimationBallZigZag()
+        case .ballZigZagDeflect:
+            return ActivityIndicatorAnimationBallZigZagDeflect()
+        case .ballTrianglePath:
+            return ActivityIndicatorAnimationBallTrianglePath()
+        case .ballScale:
+            return ActivityIndicatorAnimationBallScale()
+        case .lineScale:
+            return ActivityIndicatorAnimationLineScale()
+        case .lineScaleParty:
+            return ActivityIndicatorAnimationLineScaleParty()
+        case .ballScaleMultiple:
+            return ActivityIndicatorAnimationBallScaleMultiple()
+        case .ballPulseSync:
+            return ActivityIndicatorAnimationBallPulseSync()
+        case .ballBeat:
+            return ActivityIndicatorAnimationBallBeat()
+        case .lineScalePulseOut:
+            return ActivityIndicatorAnimationLineScalePulseOut()
+        case .lineScalePulseOutRapid:
+            return ActivityIndicatorAnimationLineScalePulseOutRapid()
+        case .ballScaleRipple:
+            return ActivityIndicatorAnimationBallScaleRipple()
+        case .ballScaleRippleMultiple:
+            return ActivityIndicatorAnimationBallScaleRippleMultiple()
+        case .ballSpinFadeLoader:
+            return ActivityIndicatorAnimationBallSpinFadeLoader()
+        case .lineSpinFadeLoader:
+            return ActivityIndicatorAnimationLineSpinFadeLoader()
+        case .triangleSkewSpin:
+            return ActivityIndicatorAnimationTriangleSkewSpin()
+        case .pacman:
+            return ActivityIndicatorAnimationPacman()
+        case .ballGridBeat:
+            return ActivityIndicatorAnimationBallGridBeat()
+        case .semiCircleSpin:
+            return ActivityIndicatorAnimationSemiCircleSpin()
+        case .ballRotateChase:
+            return ActivityIndicatorAnimationBallRotateChase()
+        case .orbit:
+            return ActivityIndicatorAnimationOrbit()
+        case .audioEqualizer:
+            return ActivityIndicatorAnimationAudioEqualizer()
         }
     }
-
 }
 
 protocol ActivityIndicatorAnimationDelegate {
@@ -48,8 +285,8 @@ public class ActivityIndicatorView: NSView {
     /// Default type. Default value is .BallSpinFadeLoader.
     public static var DEFAULT_TYPE: ActivityIndicatorType = .blank
 
-    /// Default color. Default value is NSColor.whiteColor().
-    public static var DEFAULT_COLOR = NSColor.white
+    /// Default color. Default value is lightGray.
+    public static var DEFAULT_COLOR = NSColor.lightGray
 
     /// Default padding. Default value is 0.
     public static var DEFAULT_PADDING: CGFloat = 0
@@ -105,7 +342,7 @@ public class ActivityIndicatorView: NSView {
     /**
      Create a activity indicator view.
 
-     Appropriate NVActivityIndicatorView.DEFAULT_* values are used for omitted params.
+     Appropriate ActivityIndicatorView.DEFAULT_* values are used for omitted params.
 
      - parameter frame:   view's frame.
      - parameter type:    animation type.

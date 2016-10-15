@@ -1,5 +1,5 @@
 //
-//  ActivityIndicatorAnimationSquareSpin.swift
+//  ActivityIndicatorAnimationTriangleSkewSpin.swift
 //  ActivityIndicatorViewDemo
 //
 //  Created by Nguyen Vinh on 7/24/15.
@@ -8,12 +8,14 @@
 
 import Foundation
 
-class ActivityIndicatorAnimationSquareSpin: ActivityIndicatorAnimationDelegate {
+class ActivityIndicatorAnimationTriangleSkewSpin: ActivityIndicatorAnimationDelegate {
     
     func setUpAnimation(in layer: CALayer?, size: CGSize, color: NSColor) {
         guard let layer = layer else {
             return
         }
+        let x = (layer.bounds.size.width - size.width) / 2
+        let y = (layer.bounds.size.height - size.height) / 2
         let duration: CFTimeInterval = 3
         let timingFunction = CAMediaTimingFunction(controlPoints: 0.09, 0.57, 0.49, 0.9)
         
@@ -32,16 +34,12 @@ class ActivityIndicatorAnimationSquareSpin: ActivityIndicatorAnimationDelegate {
         animation.repeatCount = HUGE
         animation.isRemovedOnCompletion = false
         
-        // Draw square
-        let square = ActivityIndicatorShape.rectangle.layerWith(size: size, color: color)
-        let frame = CGRect(x: (layer.bounds.size.width - size.width) / 2,
-                           y: (layer.bounds.size.height - size.height) / 2,
-                           width: size.width,
-                           height: size.height)
+        // Draw triangle
+        let triangle = ActivityIndicatorShape.triangle.layerWith(size: size, color: color)
         
-        square.frame = frame
-        square.add(animation, forKey: "animation")
-        layer.addSublayer(square)
+        triangle.frame = CGRect(x: x, y: y, width: size.width, height: size.height)
+        triangle.add(animation, forKey: "animation")
+        layer.addSublayer(triangle)
     }
     
     func createRotateXTransform(angle: CGFloat) -> CATransform3D {

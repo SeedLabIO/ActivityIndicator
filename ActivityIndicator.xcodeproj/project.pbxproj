@@ -7,6 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039BB8761DB1FAE300103E9D /* ActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8561DB1FAE300103E9D /* ActivityIndicatorAnimationAudioEqualizer.swift */; };
+		039BB8781DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8581DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotate.swift */; };
+		039BB8791DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8591DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		039BB87A1DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB85A1DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		039BB87B1DB1FAE300103E9D /* ActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB85B1DB1FAE300103E9D /* ActivityIndicatorAnimationBallGridBeat.swift */; };
+		039BB87C1DB1FAE300103E9D /* ActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB85C1DB1FAE300103E9D /* ActivityIndicatorAnimationBallGridPulse.swift */; };
+		039BB87D1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB85D1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulse.swift */; };
+		039BB87E1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB85E1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulseRise.swift */; };
+		039BB87F1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB85F1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulseSync.swift */; };
+		039BB8801DB1FAE300103E9D /* ActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8601DB1FAE300103E9D /* ActivityIndicatorAnimationBallRotate.swift */; };
+		039BB8811DB1FAE300103E9D /* ActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8611DB1FAE300103E9D /* ActivityIndicatorAnimationBallRotateChase.swift */; };
+		039BB8821DB1FAE300103E9D /* ActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8621DB1FAE300103E9D /* ActivityIndicatorAnimationBallScale.swift */; };
+		039BB8831DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8631DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		039BB8841DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8641DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleRipple.swift */; };
+		039BB8851DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8651DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		039BB8861DB1FAE300103E9D /* ActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8661DB1FAE300103E9D /* ActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		039BB8871DB1FAE300103E9D /* ActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8671DB1FAE300103E9D /* ActivityIndicatorAnimationBallTrianglePath.swift */; };
+		039BB8881DB1FAE300103E9D /* ActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8681DB1FAE300103E9D /* ActivityIndicatorAnimationBallZigZag.swift */; };
+		039BB8891DB1FAE300103E9D /* ActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8691DB1FAE300103E9D /* ActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		039BB88A1DB1FAE300103E9D /* ActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB86A1DB1FAE300103E9D /* ActivityIndicatorAnimationBlank.swift */; };
+		039BB88B1DB1FAE300103E9D /* ActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB86B1DB1FAE300103E9D /* ActivityIndicatorAnimationCubeTransition.swift */; };
+		039BB88C1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB86C1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScale.swift */; };
+		039BB88D1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB86D1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScaleParty.swift */; };
+		039BB88E1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB86E1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		039BB88F1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB86F1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		039BB8901DB1FAE300103E9D /* ActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8701DB1FAE300103E9D /* ActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		039BB8911DB1FAE300103E9D /* ActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8711DB1FAE300103E9D /* ActivityIndicatorAnimationOrbit.swift */; };
+		039BB8921DB1FAE300103E9D /* ActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8721DB1FAE300103E9D /* ActivityIndicatorAnimationPacman.swift */; };
+		039BB8931DB1FAE300103E9D /* ActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8731DB1FAE300103E9D /* ActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		039BB8941DB1FAE300103E9D /* ActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8741DB1FAE300103E9D /* ActivityIndicatorAnimationSquareSpin.swift */; };
+		039BB8951DB1FAE300103E9D /* ActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8751DB1FAE300103E9D /* ActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		039BB8991DB1FED800103E9D /* ActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB8981DB1FED800103E9D /* ActivityIndicatorAnimationBallBeat.swift */; };
+		039BB89C1DB2043E00103E9D /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BB89A1DB2043E00103E9D /* CollectionViewItem.swift */; };
+		039BB89D1DB2043E00103E9D /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039BB89B1DB2043E00103E9D /* CollectionViewItem.xib */; };
 		03DA19241DB0741400E1965C /* ActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 03DA19221DB0741400E1965C /* ActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03DA19311DB0743900E1965C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA19301DB0743900E1965C /* AppDelegate.swift */; };
 		03DA19331DB0743900E1965C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA19321DB0743900E1965C /* ViewController.swift */; };
@@ -15,8 +49,6 @@
 		03DA193D1DB0746B00E1965C /* ActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DA191F1DB0741400E1965C /* ActivityIndicator.framework */; };
 		03DA193E1DB0746B00E1965C /* ActivityIndicator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03DA191F1DB0741400E1965C /* ActivityIndicator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		03DA19431DB0749000E1965C /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA19421DB0749000E1965C /* ActivityIndicatorView.swift */; };
-		03DA19461DB077B100E1965C /* ActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA19451DB077B000E1965C /* ActivityIndicatorAnimationBlank.swift */; };
-		03DA19481DB077B900E1965C /* ActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA19471DB077B900E1965C /* ActivityIndicatorAnimationSquareSpin.swift */; };
 		03DA194A1DB07C8000E1965C /* ActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA19491DB07C8000E1965C /* ActivityIndicatorShape.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +77,40 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		039BB8561DB1FAE300103E9D /* ActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		039BB8581DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		039BB8591DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		039BB85A1DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		039BB85B1DB1FAE300103E9D /* ActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		039BB85C1DB1FAE300103E9D /* ActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		039BB85D1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		039BB85E1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		039BB85F1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		039BB8601DB1FAE300103E9D /* ActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		039BB8611DB1FAE300103E9D /* ActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		039BB8621DB1FAE300103E9D /* ActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		039BB8631DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		039BB8641DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		039BB8651DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		039BB8661DB1FAE300103E9D /* ActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		039BB8671DB1FAE300103E9D /* ActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		039BB8681DB1FAE300103E9D /* ActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		039BB8691DB1FAE300103E9D /* ActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		039BB86A1DB1FAE300103E9D /* ActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		039BB86B1DB1FAE300103E9D /* ActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		039BB86C1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		039BB86D1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		039BB86E1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		039BB86F1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		039BB8701DB1FAE300103E9D /* ActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		039BB8711DB1FAE300103E9D /* ActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		039BB8721DB1FAE300103E9D /* ActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		039BB8731DB1FAE300103E9D /* ActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		039BB8741DB1FAE300103E9D /* ActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		039BB8751DB1FAE300103E9D /* ActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		039BB8981DB1FED800103E9D /* ActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		039BB89A1DB2043E00103E9D /* CollectionViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
+		039BB89B1DB2043E00103E9D /* CollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
 		03DA191F1DB0741400E1965C /* ActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DA19221DB0741400E1965C /* ActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityIndicator.h; sourceTree = "<group>"; };
 		03DA19231DB0741400E1965C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,8 +121,6 @@
 		03DA19371DB0743900E1965C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03DA19391DB0743900E1965C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03DA19421DB0749000E1965C /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
-		03DA19451DB077B000E1965C /* ActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
-		03DA19471DB077B900E1965C /* ActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
 		03DA19491DB07C8000E1965C /* ActivityIndicatorShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +180,8 @@
 				03DA19321DB0743900E1965C /* ViewController.swift */,
 				03DA19341DB0743900E1965C /* Assets.xcassets */,
 				03DA19361DB0743900E1965C /* Main.storyboard */,
+				039BB89A1DB2043E00103E9D /* CollectionViewItem.swift */,
+				039BB89B1DB2043E00103E9D /* CollectionViewItem.xib */,
 				03DA19391DB0743900E1965C /* Info.plist */,
 			);
 			path = ActivityIndicatorDemo;
@@ -124,8 +190,38 @@
 		03DA19441DB0779100E1965C /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				03DA19451DB077B000E1965C /* ActivityIndicatorAnimationBlank.swift */,
-				03DA19471DB077B900E1965C /* ActivityIndicatorAnimationSquareSpin.swift */,
+				039BB8981DB1FED800103E9D /* ActivityIndicatorAnimationBallBeat.swift */,
+				039BB8561DB1FAE300103E9D /* ActivityIndicatorAnimationAudioEqualizer.swift */,
+				039BB8581DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotate.swift */,
+				039BB8591DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				039BB85A1DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				039BB85B1DB1FAE300103E9D /* ActivityIndicatorAnimationBallGridBeat.swift */,
+				039BB85C1DB1FAE300103E9D /* ActivityIndicatorAnimationBallGridPulse.swift */,
+				039BB85D1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulse.swift */,
+				039BB85E1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulseRise.swift */,
+				039BB85F1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulseSync.swift */,
+				039BB8601DB1FAE300103E9D /* ActivityIndicatorAnimationBallRotate.swift */,
+				039BB8611DB1FAE300103E9D /* ActivityIndicatorAnimationBallRotateChase.swift */,
+				039BB8621DB1FAE300103E9D /* ActivityIndicatorAnimationBallScale.swift */,
+				039BB8631DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleMultiple.swift */,
+				039BB8641DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleRipple.swift */,
+				039BB8651DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				039BB8661DB1FAE300103E9D /* ActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				039BB8671DB1FAE300103E9D /* ActivityIndicatorAnimationBallTrianglePath.swift */,
+				039BB8681DB1FAE300103E9D /* ActivityIndicatorAnimationBallZigZag.swift */,
+				039BB8691DB1FAE300103E9D /* ActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				039BB86A1DB1FAE300103E9D /* ActivityIndicatorAnimationBlank.swift */,
+				039BB86B1DB1FAE300103E9D /* ActivityIndicatorAnimationCubeTransition.swift */,
+				039BB86C1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScale.swift */,
+				039BB86D1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScaleParty.swift */,
+				039BB86E1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScalePulseOut.swift */,
+				039BB86F1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				039BB8701DB1FAE300103E9D /* ActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				039BB8711DB1FAE300103E9D /* ActivityIndicatorAnimationOrbit.swift */,
+				039BB8721DB1FAE300103E9D /* ActivityIndicatorAnimationPacman.swift */,
+				039BB8731DB1FAE300103E9D /* ActivityIndicatorAnimationSemiCircleSpin.swift */,
+				039BB8741DB1FAE300103E9D /* ActivityIndicatorAnimationSquareSpin.swift */,
+				039BB8751DB1FAE300103E9D /* ActivityIndicatorAnimationTriangleSkewSpin.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -235,6 +331,7 @@
 			files = (
 				03DA19351DB0743900E1965C /* Assets.xcassets in Resources */,
 				03DA19381DB0743900E1965C /* Main.storyboard in Resources */,
+				039BB89D1DB2043E00103E9D /* CollectionViewItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,10 +342,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03DA19461DB077B100E1965C /* ActivityIndicatorAnimationBlank.swift in Sources */,
+				039BB8991DB1FED800103E9D /* ActivityIndicatorAnimationBallBeat.swift in Sources */,
+				039BB8811DB1FAE300103E9D /* ActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				039BB87B1DB1FAE300103E9D /* ActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				039BB8791DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				039BB87F1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				039BB8911DB1FAE300103E9D /* ActivityIndicatorAnimationOrbit.swift in Sources */,
+				039BB88F1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				039BB88C1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScale.swift in Sources */,
+				039BB8901DB1FAE300103E9D /* ActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				039BB87D1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulse.swift in Sources */,
+				039BB88D1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScaleParty.swift in Sources */,
 				03DA19431DB0749000E1965C /* ActivityIndicatorView.swift in Sources */,
+				039BB8781DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				039BB8841DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				039BB8921DB1FAE300103E9D /* ActivityIndicatorAnimationPacman.swift in Sources */,
+				039BB8871DB1FAE300103E9D /* ActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				039BB88B1DB1FAE300103E9D /* ActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				039BB8891DB1FAE300103E9D /* ActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				039BB87C1DB1FAE300103E9D /* ActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				039BB8881DB1FAE300103E9D /* ActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				039BB88E1DB1FAE300103E9D /* ActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				039BB8851DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
 				03DA194A1DB07C8000E1965C /* ActivityIndicatorShape.swift in Sources */,
-				03DA19481DB077B900E1965C /* ActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				039BB8941DB1FAE300103E9D /* ActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				039BB8831DB1FAE300103E9D /* ActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				039BB87E1DB1FAE300103E9D /* ActivityIndicatorAnimationBallPulseRise.swift in Sources */,
+				039BB8861DB1FAE300103E9D /* ActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				039BB8931DB1FAE300103E9D /* ActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				039BB8951DB1FAE300103E9D /* ActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				039BB88A1DB1FAE300103E9D /* ActivityIndicatorAnimationBlank.swift in Sources */,
+				039BB87A1DB1FAE300103E9D /* ActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				039BB8821DB1FAE300103E9D /* ActivityIndicatorAnimationBallScale.swift in Sources */,
+				039BB8761DB1FAE300103E9D /* ActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
+				039BB8801DB1FAE300103E9D /* ActivityIndicatorAnimationBallRotate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +385,7 @@
 			files = (
 				03DA19331DB0743900E1965C /* ViewController.swift in Sources */,
 				03DA19311DB0743900E1965C /* AppDelegate.swift in Sources */,
+				039BB89C1DB2043E00103E9D /* CollectionViewItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +597,7 @@
 				03DA19291DB0741400E1965C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03DA193A1DB0743900E1965C /* Build configuration list for PBXNativeTarget "ActivityIndicatorDemo" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +606,7 @@
 				03DA193C1DB0743900E1965C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

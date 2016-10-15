@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CollectionViewItem" customModule="ActivityIndicatorDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicatorView" destination="Kbc-6W-btH" id="i8o-dK-jpC"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="Kbc-6W-btH" customClass="ActivityIndicatorView" customModule="ActivityIndicator">
+                    <rect key="frame" x="5" y="5" width="470" height="262"/>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Kbc-6W-btH" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="1Gd-gh-zFk"/>
+                <constraint firstItem="Kbc-6W-btH" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="HC5-5J-Qo0"/>
+                <constraint firstItem="Kbc-6W-btH" firstAttribute="height" secondItem="Hz6-mo-xeY" secondAttribute="height" constant="-10" id="end-VI-OW9"/>
+                <constraint firstItem="Kbc-6W-btH" firstAttribute="width" secondItem="Hz6-mo-xeY" secondAttribute="width" constant="-10" id="lN9-qC-CDC"/>
+            </constraints>
+        </customView>
+        <collectionViewItem id="w9n-Vm-L65" customClass="CollectionViewItem" customModule="ActivityIndicatorDemo" customModuleProvider="target"/>
+    </objects>
+</document>
